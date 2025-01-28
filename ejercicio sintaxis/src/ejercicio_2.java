@@ -19,7 +19,6 @@ public class ejercicio_2 {
         for (String palabra : palabras) {
             capitalizado += palabra.substring(0, 1).toUpperCase() + palabra.substring(1).toLowerCase() + " ";
         }
-        
         System.out.println("nombre capitalizado: " + capitalizado.trim());
     }
 }
