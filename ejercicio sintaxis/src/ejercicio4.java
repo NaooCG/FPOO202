@@ -12,4 +12,5 @@ public class ejercicio4 {
         int length = name.length();
         System.out.println(nameUpperCase + " tiene " + length + " letras");
     }
+
 }

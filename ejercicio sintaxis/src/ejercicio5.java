@@ -16,5 +16,6 @@ public class ejercicio5 {
         int pesoTotal = (numP * PP) + (numM * PM);
 
         System.out.println("el peso total es de: " + pesoTotal + " gramos");
+
     }
 }

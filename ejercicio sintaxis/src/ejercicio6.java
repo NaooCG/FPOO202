@@ -11,5 +11,6 @@ public class ejercicio6 {
         String FI = new StringBuilder(frase).reverse().toString();
 
         System.out.println("tu frase invertida es: " + FI);
+
     }
 }

@@ -13,6 +13,7 @@ public class ejercicio3 {
             suma += i;
         }
 
+
         System.out.println("La suma de todos los enteros desde 1 hasta " + x + " es: " + suma);
         System.out.println("La suma de todos los enteros desde 1 hasta " + num + " es: " + suma);
     }
