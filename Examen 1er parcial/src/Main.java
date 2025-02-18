@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
 
-        System.out.println("conversión temperatura");
+        System.out.println("conversion temperaturas");
         System.out.println("1. farenheit-centigrados");
         System.out.println("2. centigrados para farenheit");
         System.out.println("3.  Kelvin a centigrados");
