@@ -21,4 +21,4 @@ public class Main {
         String passwordGenerated = password.generador(password.numeros, includeSpecialChars, includeSpecialChars);
         JOptionPane.showMessageDialog(null, "tu contraseña es " + passwordGenerated);
     }
-}   
+}
