@@ -4,9 +4,9 @@ public class Main {
         //creamos el segundo objeto
         cuenta Usuario= new cuenta();
         //usar atributos
-        Usuario.idcuenta=Integer.parseInt(JOptionPane.showInputDialog("ingrese ID de cuenta"));
-        Usuario.idUsuario=Integer.parseInt(JOptionPane.showInputDialog("ingrese ID de Usuario"));
-        Usuario.monto=Integer.parseInt(JOptionPane.showInputDialog("ingrese su onto disponible"));
+        Usuario.setIdcuenta(Integer.parseInt(JOptionPane.showInputDialog("ingrese ID de cuenta")));
+        Usuario.setIdUsuario(Integer.parseInt(JOptionPane.showInputDialog("ingrese ID de Usuario")));
+        Usuario.setMonto(Integer.parseInt(JOptionPane.showInputDialog("ingrese su onto disponible")));
         //invocamos metodos
         int opciones;
         do {
@@ -20,7 +20,7 @@ public class Main {
             switch (opciones) {
                 case 1:
                     Usuario.mostrarInfo();
-                    JOptionPane.showMessageDialog(null, "saldo actual: $" + Usuario.monto);
+                    JOptionPane.showMessageDialog(null, "saldo actual: $" + Usuario.getMonto());
                     break;
                 case 2:
                     float ingreso = Float.parseFloat(JOptionPane.showInputDialog("ingresar monto:"));

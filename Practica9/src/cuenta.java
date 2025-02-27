@@ -1,8 +1,36 @@
 public class cuenta {
 
-    public int idcuenta;
-    int idUsuario;
-    float monto;
+    private int idcuenta;
+
+    private int idUsuario;
+    private float monto;
+
+    //constructores
+    public cuenta() {
+        this.idcuenta = idcuenta;
+        this.idUsuario = idUsuario;
+        this.monto = monto;
+    }
+
+    //zona gets & zets
+    public int getIdUsuario() {
+        return idUsuario;
+    }
+    public void setIdUsuario(int idUsuario) {
+        this.idUsuario = idUsuario;
+    }
+    public int getIdcuenta() {
+        return idcuenta;
+    }
+    public void setIdcuenta(int idcuenta) {
+        this.idcuenta = idcuenta;
+    }
+    public float getMonto() {
+        return monto;
+    }
+    public void setMonto(float monto) {
+        this.monto = monto;
+    }
 
     public void mostrarInfo(){
         System.out.println("-------informacion de la cuenta -----");
