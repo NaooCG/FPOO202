@@ -9,7 +9,7 @@ public class Spartan {
         this.salud = salud;
         this.armaPrincipal = armaPrincipal;
     }
-    
+
     //gets 1ra parte quirando el constructor ejecutar
     public String getNombre() {
         return nombre;

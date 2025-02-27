@@ -1,8 +1,42 @@
 import java.util.Random;
 public class password {
-    public int id, numeros;
-    String minusculas, mayusculas;
 
+    private int id;
+    private int numeros;
+    private String minusculas, mayusculas;
+
+    //constructort
+    public password() {
+        this.id = id;
+        this.numeros = numeros;
+        this.minusculas = minusculas;
+        this.mayusculas = mayusculas;
+    }
+    //zona gets & zets
+    public int getNumeros() {
+        return numeros;
+    }
+    public void setNumeros(int numeros) {
+        this.numeros = numeros;
+    }
+    public int getId() {
+        return id;
+    }
+    public void setId(int id) {
+        this.id = id;
+    }
+    public String getMinusculas() {
+        return minusculas;
+    }
+    public void setMinusculas(String minusculas) {
+        this.minusculas = minusculas;
+    }
+    public String getMayusculas() {
+        return mayusculas;
+    }
+    public void setMayusculas(String mayusculas) {
+        this.mayusculas = mayusculas;
+    }
      public void mostrarInfo(){
          System.out.println("-------generador de contraseña -----");
          System.out.println(" ID Cuenta " + id);

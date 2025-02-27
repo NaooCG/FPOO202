@@ -6,7 +6,6 @@ public class Main {
 
         //usar atributos
 
-
         //invocamos metodos
         masterChief.mostrarInfo();
         masterChief.atacar(" Grunt ");
@@ -26,15 +25,11 @@ public class Main {
 
         //usar atributos
 
-
         //invocamos metodos
         Equipo.mostrarInfo();
         Equipo.atacar(" Grunt ");
         Equipo.recargarArma( 75);
         Equipo.correr( true);
     }
-
     //zona gets y sets
-
-
 }
