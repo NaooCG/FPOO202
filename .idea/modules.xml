@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Examen 1er parcial/Examen 1er parcial.iml" filepath="$PROJECT_DIR$/Examen 1er parcial/Examen 1er parcial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/FPOO202.iml" filepath="$PROJECT_DIR$/.idea/FPOO202.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HALO/HALO.iml" filepath="$PROJECT_DIR$/HALO/HALO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HaloHerencia/HaloHerencia.iml" filepath="$PROJECT_DIR$/HaloHerencia/HaloHerencia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practica9/Practica9.iml" filepath="$PROJECT_DIR$/Practica9/Practica9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sintaxis/Sintaxis.iml" filepath="$PROJECT_DIR$/Sintaxis/Sintaxis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ac13/ac13.iml" filepath="$PROJECT_DIR$/ac13/ac13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ciclos/ciclos.iml" filepath="$PROJECT_DIR$/ciclos/ciclos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/condicionales/condicionales.iml" filepath="$PROJECT_DIR$/condicionales/condicionales.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejercicio sintaxis/ejercicio sintaxis.iml" filepath="$PROJECT_DIR$/ejercicio sintaxis/ejercicio sintaxis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/genradorpass/genradorpass.iml" filepath="$PROJECT_DIR$/genradorpass/genradorpass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prubea/prubea.iml" filepath="$PROJECT_DIR$/prubea/prubea.iml" />
+    </modules>
+  </component>
+</project>
