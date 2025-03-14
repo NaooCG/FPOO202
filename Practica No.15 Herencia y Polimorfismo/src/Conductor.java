@@ -22,3 +22,4 @@ class Conductor extends Empleado {
             "Conduciendo", JOptionPane.INFORMATION_MESSAGE);
     }
 }
+
