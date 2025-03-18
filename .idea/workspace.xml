@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="69bf94e0-741c-4595-b6aa-caa7472308a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/prubea/src/AdministracionUsuarios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prubea/src/LoginEstatetico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prubea/src/ModuloInventario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examen 1er parcial/Examen 1er parcial.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HALO/HALO.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HaloHerencia/HaloHerencia.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica9/Practica9.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sintaxis/Sintaxis.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ac13/ac13.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ciclos/ciclos.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/condicionales/condicionales.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicio sintaxis/ejercicio sintaxis.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genradorpass/genradorpass.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,36 +16,36 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "NaooCG"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;NaooCG&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/NaooCG/FPOO202.git",
-    "accountId": "830cb5b9-cbe4-44c0-9834-13ebd62beeb8"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/NaooCG/FPOO202.git&quot;,
+    &quot;accountId&quot;: &quot;830cb5b9-cbe4-44c0-9834-13ebd62beeb8&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2u0rZtRintDCPQf2NnnADKSNjpF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/FPOO202/HaloHerencia"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/FPOO202&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
