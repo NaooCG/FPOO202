@@ -19,7 +19,7 @@ public class ConexionMySQL {
             System.out.println("Error: No se encontró el driver JDBC.");
             e.printStackTrace();
         } catch (SQLException e) {
-            System.out.println("🚨 Error en la conexión: " + e.getMessage());
+            System.out.println("Error en la conexión: " + e.getMessage());
             e.printStackTrace();
         }
         return conex;
