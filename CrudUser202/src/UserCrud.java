@@ -13,7 +13,7 @@ import java.sql.SQLException;
 import java.sql.ResultSet;
 
 public class UserCrud {
-    
+   
     private Connection conexion;
     
     public UserCrud(){
@@ -54,7 +54,6 @@ public class UserCrud {
     //obetener uduario por id
     public ResultSet obtenerTodos(){
         String sqlTodos="SELECT*FROM Usuarios";
-        
         try{
             PreparedStatement ps = conexion.prepareStatement(sqlTodos);
             return ps.executeQuery();
@@ -63,6 +62,22 @@ public class UserCrud {
             System.out.println("Error al consultar: "+w.getMessage());
             return null;
         }
-    }
+    }//fin mostar todos
+      // actualizar usuario
+    public boolean actualizarUsuario(String nombre, String correo, String contrasena, int id) {
+     String updateSql = "UPDATE Usuarios SET nombre =?, correo =?, contraseña =? WHERE id =?";
+
+     try (PreparedStatement ps = conexion.prepareStatement(updateSql)) {
+         ps.setString(1, nombre);
+         ps.setString(2, correo);
+         ps.setString(3, contrasena);
+         ps.setInt(4, id);
+
+         return ps.executeUpdate() > 0;
+     } catch (SQLException e) {
+         System.out.println("Error al actualizar " + e.getMessage());
+         return false;
+     }
+ }//fin 
             
 }
